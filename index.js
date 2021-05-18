@@ -1,9 +1,11 @@
 // Code your solutions in this file
 
 function writeCards(array){
+  thankYouArray = []
   for (let i = 0; i < array.length; i ++){
-    console.log(`Wrapped ${array[i]} and added a bow!`);
+    thankYouArray.push(`Wrapped ${array[i]} and added a bow!`);
   }
+  return thankYouArray
 }
 
 function countDown(){
